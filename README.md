@@ -1,4 +1,5 @@
-#Stock Tracker
+Stock Tracker
+
 To run this app, please clone or download the directory.
 
 Then open the app's root directory in your command prompt use the command 'sbt run'
