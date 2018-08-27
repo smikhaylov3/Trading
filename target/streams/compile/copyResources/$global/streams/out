@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/sergeymikhaylov/Local Documents/Programming/Trading/conf/logback.xml,/Users/sergeymikhaylov/Local Documents/Programming/Trading/target/scala-2.12/classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/sergeymikhaylov/Local Documents/Programming/Trading/conf/application.conf,/Users/sergeymikhaylov/Local Documents/Programming/Trading/target/scala-2.12/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/sergeymikhaylov/Local Documents/Programming/Trading/conf/routes,/Users/sergeymikhaylov/Local Documents/Programming/Trading/target/scala-2.12/classes/routes)[0m

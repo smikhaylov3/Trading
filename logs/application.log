@@ -1,0 +1,1153 @@
+2018-08-26 21:14:01,608 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-4 - Slf4jLogger started
+2018-08-26 21:14:01,892 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-4 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-08-26 21:14:01,896 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-4 - Application started (Dev)
+2018-08-26 21:14:02,788 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-9 - Received message WatchStocks([GOOG, AAPL, ORCL])
+2018-08-26 21:14:02,800 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:03,044 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:03,107 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:03,110 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:03,254 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:03,275 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:03,275 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:03,335 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:03,353 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:03,354 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-2 - Adding stock Stock(ORCL)
+2018-08-26 21:14:03,370 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-9 - Adding stock Stock(AAPL)
+2018-08-26 21:14:03,372 [INFO] from actors.UserActor in application-akka.actor.default-dispatcher-4 - Adding stock Stock(GOOG)
+2018-08-26 21:14:03,372 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:03,372 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:03,375 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:03,388 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:03,389 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:03,407 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:03,407 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:03,427 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:03,428 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:03,443 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:03,443 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:03,460 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:03,497 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:03,497 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:03,498 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:03,498 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:03,499 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:03,522 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:03,523 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:03,523 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:03,523 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:03,523 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:03,523 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:03,541 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:03,542 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:03,542 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:03,542 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:03,558 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:03,559 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:03,559 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:03,559 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:03,577 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:03,578 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:03,578 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:03,578 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:03,579 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:03,579 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:03,595 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:03,595 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:03,596 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:03,596 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:03,596 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:03,596 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:03,621 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:03,621 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:03,621 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:03,621 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:03,638 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:03,639 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:03,640 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:03,640 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:03,656 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:03,656 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:03,656 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:03,656 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:03,674 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:03,675 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:03,675 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:03,675 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:03,692 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:03,692 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:03,693 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:03,693 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:03,712 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:03,712 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:03,712 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:03,712 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:03,716 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:03,716 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:03,730 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:03,730 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:03,730 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:03,730 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:03,731 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:03,731 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:03,748 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:03,748 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:03,748 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:03,748 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:03,748 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:03,749 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:03,769 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:03,769 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:03,769 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:03,769 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:03,769 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:03,770 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:03,787 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:03,787 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:03,787 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:03,787 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:03,789 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:03,789 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:03,805 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:03,805 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:03,805 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:03,805 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:03,805 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:03,805 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:03,821 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:03,821 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:03,822 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:03,822 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:03,823 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:03,823 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:03,839 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:03,839 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:03,839 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:03,839 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:03,840 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:03,840 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:03,857 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:03,857 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:03,857 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:03,858 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:03,858 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:03,858 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:03,875 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:03,875 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:03,875 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:03,875 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:03,875 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:03,875 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:03,899 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:03,899 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:03,900 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:03,900 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:03,900 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:03,900 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:03,914 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:03,915 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:03,922 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:03,922 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:03,922 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:03,922 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:03,936 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:03,936 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:03,940 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:03,940 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:03,940 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:03,940 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:03,957 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:03,957 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:03,957 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:03,957 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:03,957 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:03,957 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:03,977 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:03,977 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:03,977 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:03,977 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:03,977 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:03,977 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:03,995 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:03,996 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:03,996 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:03,996 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:03,996 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:03,996 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:04,020 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,020 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,021 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,021 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,039 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,039 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,039 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,039 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,057 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,057 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,057 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,058 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,075 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,075 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,076 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,076 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,094 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,094 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,094 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,095 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,112 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,113 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,113 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,113 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,132 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:04,132 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,132 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:04,132 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,132 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,132 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,150 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,150 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,151 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,151 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,169 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,170 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,170 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,170 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,182 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:04,183 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:04,186 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,186 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,187 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,187 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,206 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,206 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,206 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,207 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,226 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,226 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,226 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,227 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,235 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:04,236 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:04,242 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,243 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,243 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,243 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,253 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:04,253 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:04,259 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,260 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,260 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,260 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,270 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:04,270 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:04,275 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,276 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,280 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,280 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,284 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:04,285 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:04,292 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,292 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,295 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,295 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,299 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:04,299 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:04,309 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,309 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,310 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,310 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,315 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:04,315 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:04,329 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,329 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,329 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,329 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,333 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:04,333 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:04,348 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,348 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,348 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,349 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,352 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:04,352 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:04,366 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,366 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,366 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,366 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,377 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:04,377 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:04,385 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,386 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,387 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,387 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,395 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:04,395 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:04,406 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,407 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,408 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,408 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,410 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:04,411 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:04,422 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,423 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,426 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:04,427 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:04,429 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,429 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,437 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,441 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,446 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:04,446 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:04,448 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,448 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,457 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,457 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,464 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:04,464 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:04,468 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,468 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,471 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,481 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:04,481 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:04,486 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,486 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,499 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:04,499 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:04,503 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,504 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,512 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:04,512 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:04,516 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,522 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,522 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,526 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:04,527 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:04,531 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,542 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,542 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:04,542 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:04,559 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:04,559 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:04,577 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:04,578 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:04,586 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,595 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,595 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:04,596 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:04,600 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,615 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:04,615 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,615 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:04,633 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:04,665 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,665 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:04,675 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,680 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:04,680 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,698 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,746 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:04,746 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,746 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,765 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,765 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:04,765 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,826 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,827 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,827 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:04,840 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,845 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:04,845 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,895 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,896 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:04,895 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,937 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:04,937 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:04,937 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,964 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:04,975 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:04,975 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:04,979 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:04,989 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:04,995 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:05,035 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:05,045 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:05,045 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:05,060 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:05,088 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:05,100 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:05,101 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:05,114 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:05,114 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:05,133 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:05,155 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:05,164 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:05,185 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:05,185 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:05,194 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:05,210 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:05,235 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:05,240 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:05,265 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:05,265 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:05,265 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:05,280 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:05,281 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:05,316 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:05,345 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:05,345 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:05,345 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:05,361 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:05,361 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:05,361 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:05,415 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:05,415 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:05,415 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:05,429 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:05,429 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:05,430 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:05,495 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:05,495 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:05,495 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:05,510 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:05,510 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:05,511 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:05,567 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:05,567 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:05,567 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:05,584 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:05,584 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:05,584 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:05,637 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:05,637 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:05,645 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:05,651 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:05,656 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:05,663 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:05,715 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:05,715 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:05,726 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:05,731 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:05,731 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:05,741 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:05,797 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:05,797 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:05,797 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:05,812 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:05,812 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:05,812 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:05,867 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:05,867 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:05,867 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:05,881 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:05,882 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:05,882 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:05,937 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:05,945 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:05,945 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:05,950 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:05,960 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:05,960 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:06,016 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:06,016 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:06,016 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:06,030 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:06,031 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:06,095 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:06,095 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:06,109 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:06,114 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:06,130 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:06,131 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:06,150 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:06,151 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:06,165 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:06,165 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:06,168 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:06,180 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:06,180 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:06,245 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:06,245 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:06,245 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:06,259 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:06,260 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:06,260 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:06,316 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:06,316 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:06,325 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-12 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:06,329 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:06,336 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:06,339 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-12 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:06,397 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:06,397 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:06,397 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:06,412 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:06,412 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:06,420 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:06,465 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:06,465 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:06,465 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:06,488 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:06,488 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:06,488 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:06,545 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:06,545 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:06,545 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:06,560 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:06,560 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:06,560 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:06,616 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:06,616 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:06,616 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:06,635 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:06,635 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:06,697 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:06,697 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:06,712 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:06,719 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:06,764 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:06,764 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:06,765 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:06,765 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:06,778 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:06,783 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:06,783 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:06,838 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:06,838 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:06,845 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:06,852 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:06,853 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:06,859 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:06,917 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:06,917 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:06,925 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:06,979 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:06,979 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:06,979 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:06,979 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:06,979 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:06,979 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:06,998 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:06,998 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:07,002 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:07,067 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:07,067 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:07,067 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:07,082 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:07,117 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:07,118 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:07,147 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:07,147 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:07,147 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:07,162 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:07,197 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:07,197 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:07,198 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:07,198 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:07,215 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:07,230 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:07,250 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:07,251 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:07,295 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:07,295 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:07,295 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:07,311 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:07,311 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:07,311 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:07,366 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:07,366 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:07,366 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:07,380 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:07,381 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:07,381 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:07,446 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:07,446 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:07,446 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:07,462 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:07,462 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:07,462 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:07,517 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:07,517 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:07,517 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:07,532 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:07,532 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:07,533 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:07,588 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:07,588 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:07,595 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:07,610 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:07,612 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:07,616 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:07,667 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:07,667 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:07,675 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:07,687 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:07,692 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:07,693 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:07,738 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:07,746 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:07,746 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:07,753 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:07,762 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:07,766 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:07,817 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:07,817 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:07,825 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:07,830 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:07,835 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:07,842 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:07,887 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:07,896 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:07,896 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:07,908 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:07,914 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:07,915 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:07,968 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:07,968 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:07,975 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:07,982 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:07,986 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:07,991 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:08,046 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:08,046 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:08,046 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:08,062 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:08,062 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:08,098 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:08,116 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:08,116 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:08,125 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:08,129 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:08,135 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:08,173 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:08,195 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:08,195 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:08,195 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:08,211 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:08,211 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:08,245 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:08,268 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:08,268 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:08,275 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:08,284 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:08,284 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:08,323 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:08,338 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:08,338 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:08,346 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:08,352 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:08,353 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:08,359 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:08,417 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:08,417 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:08,425 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:08,430 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:08,436 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:08,441 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:08,498 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:08,498 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:08,498 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:08,514 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:08,514 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:08,514 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:08,567 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:08,567 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:08,567 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:08,583 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:08,583 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:08,583 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:08,638 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:08,638 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:08,645 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:08,651 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:08,656 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:08,661 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:08,717 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:08,717 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:08,725 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:08,733 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:08,736 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:08,745 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:08,787 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:08,795 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:08,795 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:08,804 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:08,809 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:08,813 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:08,865 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:08,865 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:08,865 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:08,880 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:08,881 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:08,881 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:08,945 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:08,945 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:08,945 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:08,961 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:08,961 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:08,961 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:09,015 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:09,015 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:09,015 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:09,030 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:09,065 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:09,095 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:09,095 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:09,109 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:09,124 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:09,124 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:09,149 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:09,150 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:09,168 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:09,175 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:09,177 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:09,177 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:09,191 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:09,223 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:09,223 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:09,245 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:09,245 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:09,263 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:09,275 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:09,302 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:09,302 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:09,315 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:09,319 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:09,326 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:09,329 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:09,339 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:09,396 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:09,396 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:09,396 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:09,411 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:09,411 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:09,415 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:09,467 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:09,467 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:09,467 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:09,489 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:09,489 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:09,490 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:09,545 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:09,545 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:09,545 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:09,559 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:09,560 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:09,560 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:09,617 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:09,617 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:09,617 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:09,631 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:09,632 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:09,632 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:09,687 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:09,687 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:09,696 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:09,701 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:09,705 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:09,710 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:09,768 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:09,768 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:09,775 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:09,783 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:09,783 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:09,796 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:09,837 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:09,846 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:09,846 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:09,852 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:09,861 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:09,861 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:09,916 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:09,916 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:09,916 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:09,930 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:09,931 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:09,968 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:09,996 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:09,996 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:09,996 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:10,010 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:10,011 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:10,011 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:10,067 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:10,067 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:10,067 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:10,084 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:10,084 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:10,119 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:10,135 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:10,135 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:10,147 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:10,151 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:10,155 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:10,196 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:10,215 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:10,215 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:10,226 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:10,231 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:10,231 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:10,276 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:10,276 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:10,294 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:10,295 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:10,295 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:10,320 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:10,321 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:10,365 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:10,365 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:10,365 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:10,395 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:10,395 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:10,395 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:10,447 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:10,447 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:10,447 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:10,461 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:10,461 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:10,462 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:10,518 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:10,518 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:10,518 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:10,533 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:10,533 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:10,533 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:10,587 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:10,587 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:10,596 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:10,601 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:10,608 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:10,611 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:10,665 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:10,665 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:10,665 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:10,679 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:10,680 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:10,680 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:10,746 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:10,746 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:10,746 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:10,771 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:10,771 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:10,773 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:10,817 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:10,817 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:10,817 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:10,832 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:10,833 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:10,833 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:10,888 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:10,888 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:10,895 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:10,904 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:10,907 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:10,912 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:10,966 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:10,966 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:10,977 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:10,979 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:10,985 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:10,995 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:11,037 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:11,037 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:11,045 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:11,073 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:11,110 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:11,111 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:11,115 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:11,137 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:11,175 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:11,175 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:11,190 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:11,196 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:11,201 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:11,201 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:11,210 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:11,249 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:11,249 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:11,263 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:11,267 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:11,267 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:11,285 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:11,285 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:11,337 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:11,345 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:11,345 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:11,356 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:11,358 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:11,363 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:11,416 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:11,416 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:11,425 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:11,430 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:11,436 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:11,439 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:11,495 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:11,495 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:11,495 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:11,509 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:11,510 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:11,543 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:11,566 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:11,566 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:11,577 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:11,580 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:11,587 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:11,590 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:11,647 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:11,647 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:11,647 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:11,663 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:11,663 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:11,664 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:11,716 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:11,716 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:11,716 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:11,730 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:11,731 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:11,731 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:11,797 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:11,797 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:11,797 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:11,812 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:11,813 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:11,813 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:11,867 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:11,867 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:11,867 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:11,883 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:11,884 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:11,918 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:11,937 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:11,947 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:11,947 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:11,952 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:11,961 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:11,966 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:12,017 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:12,017 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:12,027 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:12,034 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:12,041 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:12,070 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:12,085 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:12,095 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:12,095 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:12,098 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:12,108 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:12,151 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:12,151 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:12,167 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:12,167 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:12,168 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:12,183 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:12,183 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:12,237 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:12,237 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:12,245 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:12,252 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:12,256 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:12,261 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:12,318 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:12,318 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:12,325 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:12,331 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:12,333 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:12,338 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:12,385 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:12,397 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:12,397 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:12,403 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:12,412 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:12,417 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:12,467 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:12,467 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:12,477 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:12,481 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:12,486 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:12,547 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:12,547 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:12,561 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:12,563 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:12,616 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:12,616 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:12,619 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:12,619 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:12,632 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:12,632 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:12,641 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:12,688 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:12,688 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:12,695 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:12,704 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:12,705 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:12,710 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:12,767 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:12,767 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:12,767 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:12,783 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:12,783 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:12,783 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:12,837 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:12,837 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:12,846 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:12,853 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:12,857 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:12,863 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:12,917 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:12,917 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:12,917 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:12,932 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:12,932 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:12,932 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:12,987 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:12,997 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:12,997 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:13,001 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:13,011 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:13,053 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:13,053 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:13,068 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:13,068 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:13,092 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:13,106 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:13,146 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:13,146 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:13,166 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:13,197 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:13,222 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:13,222 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:13,225 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:13,225 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:13,243 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:13,243 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:13,284 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:13,296 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:13,312 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:13,314 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:13,315 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:13,334 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:13,365 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:13,365 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:13,371 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:13,371 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:13,379 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:13,379 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:13,386 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:13,435 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:13,445 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:13,445 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:13,449 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:13,459 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:13,464 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:13,515 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:13,515 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:13,515 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:13,536 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:13,537 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:13,538 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:13,595 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:13,595 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:13,595 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:13,609 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:13,609 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:13,611 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:13,665 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:13,665 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:13,674 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:13,678 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:13,689 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:13,722 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:13,745 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:13,745 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:13,745 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:13,760 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:13,760 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:13,762 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:13,818 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-4 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:13,818 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:13,818 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:13,832 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:13,832 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-4 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:13,833 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:13,885 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:13,886 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:13,896 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:13,901 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:13,904 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:13,924 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:13,966 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:13,966 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:13,966 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-2 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:13,982 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:13,982 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:13,982 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-2 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:14,034 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:14,034 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:14,047 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:14,050 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:14,054 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:14,096 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:14,117 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:14,117 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:14,127 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:14,133 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:14,136 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:14,185 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:14,186 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:14,186 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:14,196 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:14,202 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:14,202 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:14,211 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:14,267 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:14,267 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:14,267 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:14,281 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:14,282 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:14,315 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:14,336 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:14,345 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:14,345 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:14,350 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:14,361 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:14,364 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:14,416 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:14,416 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:14,416 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:14,430 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:14,435 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:14,436 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:14,497 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:14,497 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-3 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:14,497 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:14,513 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:14,513 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-3 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:14,519 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:14,567 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:14,567 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:14,567 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:14,585 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:14,586 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:14,586 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:14,646 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:14,646 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:14,646 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:14,661 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:14,661 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:14,662 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:14,716 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-10 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:14,716 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-5 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:14,716 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:14,730 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-5 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:14,731 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-10 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:14,732 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: GOOG
+2018-08-26 21:14:14,796 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-6 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=GOOG
+2018-08-26 21:14:14,796 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-11 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=ORCL
+2018-08-26 21:14:14,796 [INFO] from yahoofinance.quotes.query1v7.QuotesRequest in application-akka.actor.default-dispatcher-9 - Sending request: https://query1.finance.yahoo.com/v7/finance/quote?symbols=AAPL
+2018-08-26 21:14:14,810 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-11 - Updated Stock with symbol: ORCL
+2018-08-26 21:14:14,810 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-9 - Updated Stock with symbol: AAPL
+2018-08-26 21:14:14,811 [INFO] from yahoofinance.Stock in application-akka.actor.default-dispatcher-6 - Updated Stock with symbol: GOOG

@@ -1,0 +1,2 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/sergeymikhaylov/Local Documents/Programming/Trading/app/stocks/StockWrapper.java:31:1: stocks.StockQuoteGenerator is abstract; cannot be instantiated[0m
+[0m[[0m[31merror[0m] [0m[0m        stockQuoteGenerator = new StockQuoteGenerator(symbol);[0m
